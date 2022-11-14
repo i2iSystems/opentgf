@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="10">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d [%t] %-5p %c - %m%n"/>
+        </Console>
+        <File name="TGF" fileName="log/tgf.log" immediateFlush="true" append="true">
+            <PatternLayout pattern="%d %r [%t] %-5p %c - %m%n"/>
+        </File>
+        <File name="TGF_STATS" fileName="log/stats.log" immediateFlush="true" append="true">
+            <PatternLayout pattern="%d %m%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="org.jdiameter.client" level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="TGF"/>
+        </Logger>
+        <Logger name="com.i2i.fcbs.octgf.core.worker" level="WARN" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="TGF"/>
+        </Logger>
+        <Logger name="com.i2i.fcbs.octgf.service" level="WARN" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="TGF"/>
+        </Logger>
+        <Logger name="com.i2i.fcbs.octgf" level="debug" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="TGF"/>
+        </Logger>
+        <Logger name="TGF_STATS" level="ERROR" additivity="false">
+            <AppenderRef ref="TGF_STATS"/>
+        </Logger>
+        <Root level="WARN">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="TGF"/>
+        </Root>
+    </Loggers>
+</Configuration>
