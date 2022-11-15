@@ -1,4 +1,4 @@
-# TGF
+# OPENTGF
 
 The current implementation is solid and works fine.
 It can send and receive messages efficiently as well as build and parse AVPs based on dictionaries.
