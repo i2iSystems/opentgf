@@ -1,7 +1,7 @@
 # OPENTGF
 
-Diameter protokolü üzerinden; IMS, DATA, VOICE ve SMS servisleri kullanılarak session veya event temelli trafik oluşturmak için opensource java projesidir.
-Konfigüre edilebilen altyapısı ile istenilen tps oluşturulabilmektedir.
+It is an opensource java project to generate session or event based traffic using IMS, DATA, VOICE and SMS services via Diameter protocol.
+With its flexible configurable features, the specified tps can be created simply over the services.
 
 # USING
 
@@ -16,7 +16,7 @@ File sqliteTgf.db  located under folder tgf/config/database;
 
 - Connect to sqliteTgf.db with any database tool you use.
 - TGF_CONFIG, TGF_INPUT, TGF_SESSN and TGF_SESSN_DETL tables available.
-- There are configurations to be used by the tgf application to the TGF_CONFIG table, you can see the explanations in the table columns,
+- There are configurations to be used by the tgf application to the TGF_CONFIG table, you can see the comments in the table columns,
   You can configure and use it the way you want.
 - In the TGF_INPUT table you need to enter the information that the application will use to create the Avps.
 - The TGF_SESSN and TGF_SESSN_DETL tables are the tables that the application uses to print the statistics after its operation.
