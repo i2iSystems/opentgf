@@ -1,7 +1,7 @@
 # OPENTGF
 
-The current implementation is solid and works fine.
-It can send and receive messages efficiently as well as build and parse AVPs based on dictionaries.
+Diameter protokolü üzerinden; IMS, DATA, VOICE ve SMS servisleri kullanılarak session veya event temelli trafik oluşturmak için opensource java projesidir.
+Konfigüre edilebilen altyapısı ile istenilen tps oluşturulabilmektedir.
 
 # USING
 
