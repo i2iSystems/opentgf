@@ -60,17 +60,21 @@ public class OCTGF {
         PrintWriter bannerWriter = new PrintWriter(System.out, true);
         bannerWriter.println("");
         // generated using http://www.patorjk.com/software/taag/#p=display&f=Big%20Money-ne&t=OCTGF
-        bannerWriter.println("  /$$$$$$   /$$$$$$  /$$$$$$$$ /$$$$$$  /$$$$$$$$\n" +
-                " /$$__  $$ /$$__  $$|__  $$__//$$__  $$| $$_____/\n" +
-                "| $$  \\ $$| $$  \\__/   | $$  | $$  \\__/| $$      \n" +
-                "| $$  | $$| $$         | $$  | $$ /$$$$| $$$$$   \n" +
-                "| $$  | $$| $$         | $$  | $$|_  $$| $$__/   \n" +
-                "| $$  | $$| $$    $$   | $$  | $$  \\ $$| $$      \n" +
-                "|  $$$$$$/|  $$$$$$/   | $$  |  $$$$$$/| $$      \n" +
-                " \\______/  \\______/    |__/   \\______/ |__/      \n" +
+        bannerWriter.println("  /$$$$$$  /$$$$$$$  /$$$$$$$$ /$$   /$$ /$$$$$$$$ /$$$$$$  /$$$$$$$$\n" +
+                " /$$__  $$| $$__  $$| $$_____/| $$$ | $$|__  $$__//$$__  $$| $$_____/\n" +
+                "| $$  \\ $$| $$  \\ $$| $$      | $$$$| $$   | $$  | $$  \\__/| $$      \n" +
+                "| $$  | $$| $$$$$$$/| $$$$$   | $$ $$ $$   | $$  | $$ /$$$$| $$$$$   \n" +
+                "| $$  | $$| $$____/ | $$__/   | $$  $$$$   | $$  | $$|_  $$| $$__/   \n" +
+                "| $$  | $$| $$      | $$      | $$\\  $$$   | $$  | $$  \\ $$| $$      \n" +
+                "|  $$$$$$/| $$      | $$$$$$$$| $$ \\  $$   | $$  |  $$$$$$/| $$      \n" +
+                " \\______/ |__/      |________/|__/  \\__/   |__/   \\______/ |__/      \n" +
                 "");
 
-        configureApplication(args, bannerWriter);
+
+
+
+
+                configureApplication(args, bannerWriter);
         bannerWriter.println("");
 
 		logger.info("Application instance {} launch completed. {} services will run. App Mode: {}. Mark 2021-08-24T00:00:00+03:00",
