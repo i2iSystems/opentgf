@@ -70,12 +70,8 @@ public class OCTGF {
                 " \\______/ |__/      |________/|__/  \\__/   |__/   \\______/ |__/      \n" +
                 "");
 
-
-
-
-
-                configureApplication(args, bannerWriter);
-        bannerWriter.println("");
+		configureApplication(args, bannerWriter);
+		bannerWriter.println("");
 
 		logger.info("Application instance {} launch completed. {} services will run. App Mode: {}. Mark 2021-08-24T00:00:00+03:00",
 				TGFConfig.getApplicationInstanceID(), TGFConfig.getServiceToTest(), TGFConfig.getApp());
