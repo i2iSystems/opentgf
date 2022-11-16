@@ -27,7 +27,7 @@ import com.i2i.fcbs.octgf.config.TGFConfig;
 
 public class MessageService {
 	private static final Logger	logger			= LogManager.getLogger(MessageService.class);
-	private static final String	INSERT_MESSAGE	= "INSERT INTO TGF_SESSN_DETL (SESSN_ID, DMTR_SESSN_ID, IMSI, REQ_TP, REQ_NUM, EVENT_START, EVENT_DURATION, RESULT_CODE, CCR_EVENT_TIMESTAMP, METRICS, NOYAN) VALUES (?,?,?,?,?,?,?,?,?,?,?)";
+	private static final String	INSERT_MESSAGE	= "INSERT INTO TGF_SESSN_DTL (SESSN_ID, DMTR_SESSN_ID, IMSI, REQ_TP, REQ_NUM, EVENT_START, EVENT_DURATION, RESULT_CODE, CCR_EVENT_TIMESTAMP, METRICS) VALUES (?,?,?,?,?,?,?,?,?,?)";
 
 	private MessageService() {
 	}

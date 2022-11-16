@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Configuration xmlns="http://www.jdiameter.org/jdiameter-server">
     <LocalPeer>
-        <URI value="aaa://diameterclientsite179:3875"/>
+        <URI value="aaa://diameterclientsite:3875"/>
         <IPAddresses>
             <IPAddress value="localhost"/>
         </IPAddresses>
-        <Realm value="nmr.com"/>
+        <Realm value="i2i-systems.com"/>
         <VendorID value="0"/>
         <ProductName value="jDiameter"/>
         <FirmwareRevision value="1"/>
@@ -52,7 +52,7 @@
             <Peer name="localhost:3869" attempt_connect="true" rating="1"/>
         </Peers>
         <Realms>
-            <Realm name="nmr.com" peers="localhost" local_action="LOCAL" dynamic="false" exp_time="1">
+            <Realm name="i2i-systems.com" peers="localhost" local_action="LOCAL" dynamic="false" exp_time="1">
                 <ApplicationID>
                     <VendorId value="0"/>
                     <AuthApplId value="4"/>
