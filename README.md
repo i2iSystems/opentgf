@@ -15,8 +15,8 @@ File client-jdiameter-config.xml located under folder tgf/config;
 File sqliteTgf.db  located under folder tgf/config/database;
 
 - Connect to sqliteTgf.db with any database tool you use.
-- TGF_CONFIG, TGF_INPUT, TGF_SESSN and TGF_SESSN_DETL tables available.
+- TGF_CONFIG, TGF_INPUT, TGF_SESSN and TGF_SESSN_DTL tables available.
 - There are configurations to be used by the tgf application to the TGF_CONFIG table, you can see the comments in the table columns,
   You can configure and use it the way you want.
 - In the TGF_INPUT table you need to enter the information that the application will use to create the Avps.
-- The TGF_SESSN and TGF_SESSN_DETL tables are the tables that the application uses to print the statistics after its operation.
+- The TGF_SESSN and TGF_SESSN_DTL tables are the tables that the application uses to print the statistics after its operation.
