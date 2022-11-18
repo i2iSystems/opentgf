@@ -5,9 +5,7 @@ Open Source Traffic Generator Function. <br>
 It is an opensource java project to generate session or event based traffic for IMS, DATA, VOICE and SMS services via Diameter protocol.
 With its flexible configurable features, the specified tps can be created simply over the services. <br>
 
-Traffic generator function (TGF) can be used to load the 5G converged charging solution (CCS) to observe & measure the performance of both an application platform as well as CCS. <br>
-
-TGF can initiate HTTP, diameter, or akka messages and sends them to desired network functions, then TGF collects responses and prints statistics. <br>
+TGF can initiate diameter messages and sends them to desired network functions, then TGF collects responses and prints statistics. <br>
 
 # USING
 
