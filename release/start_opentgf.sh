@@ -17,8 +17,8 @@ START_JAVA=$JAVA_HOME/bin/java
 
 
 
-echo "INFO>> i2iTGF  starting.."
-nohup $START_JAVA -Xdebug   -Xms1024m -Xmx4096m -jar i2itgf.jar  -nr 1 -srvc  DATA &
+echo "INFO>> opentgf  starting.."
+nohup $START_JAVA -Xdebug   -Xms1024m -Xmx4096m -jar opentgf.jar  -nr 1 -srvc  DATA &
 
 
 PID=$!
